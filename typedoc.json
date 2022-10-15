@@ -3,4 +3,23 @@
     "entryPoints": ["./src/index.ts"],
     "out": "docs",
     "includes": "src",
+    "pluginPages": {
+        "pages": [ 
+            { 
+                "title": "Module 2 usage",
+                "source": "./src/module-2/module-docs/USAGE.md" 
+            }
+        ]
+    },
+    "replaceText": {
+        "inCodeCommentText": true,
+        "inCodeCommentTags": true,
+        "inIncludedFiles": true,
+        "replacements": [
+            {
+                "pattern": "[Usage](./module-docs/USAGE.md)",
+                "replace": "{@page ./module-docs/USAGE.md Usage}"
+            },
+        ]
+    }
 }

@@ -7,4 +7,5 @@ With image:
 ![module2](./module2.png)
 
 Additional docs:
-- [Usage](./module-docs/USAGE.md)
+- MD link: [Usage](./module-docs/USAGE.md)
+- Plugin link: {@page ./module-docs/USAGE.md Usage}

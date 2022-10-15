@@ -3,8 +3,6 @@
  * 
  * Also with image of structure:
  * 
- * ![namespaces](./namespaces.png)
- * 
  * @module 
  */
 /**
